@@ -1,2 +1,2 @@
 # Visit-Srilanka
-Page designed based on the beauty of srilanka
+Page designated the base on the beauty of srilanka( still working on it)
