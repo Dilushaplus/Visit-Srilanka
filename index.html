@@ -1,0 +1,108 @@
+<html>
+<head><title>Sri Lanka</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Great+Vibes&display=swap" rel="stylesheet"
+</head>
+<body>
+    
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        
+        #sideNav {
+            position: fixed;
+            right: -250px;
+            width: 250px;
+            height: 100%;
+            background: #018d86;
+            transition: right 0.3s;
+        }
+        #menuBtn {
+            cursor: pointer;
+        }
+        #sideNav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #sideNav ul li {
+            padding: 15px;
+            text-align: center;
+        }
+        #sideNav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <section id="banner">
+        <img src="Srilanka/Black Illustrative Lion Company Logo (1).png" class="logo">
+        <div class="banner-text">
+            <h1>Sri Lanka</h1>
+            <p>Wonder of Asia</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="Srilanka/menu.png" id="menu">
+    </div>
+
+    
+<Section id="FEATURE">
+<div class="title-text">
+<P>FEATURES</P>
+<h1>Why You Should Visit Sri Lanka</h1>
+</div>
+<div class="FEATURE-box">
+<div class="FEATURES">
+    <h1></h1>
+</div>
+
+</div>
+
+</Section>
+
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function() {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "srilanka/close.png";
+            } else {
+                sideNav.style.right = "-250px";
+                menu.src = "srilanka/menu.png"
+            }
+        }
+    </script>
+</body>
+</html>
